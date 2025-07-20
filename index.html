@@ -9,11 +9,13 @@
     <title>Home page</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-
 </head>
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark nav_color">
@@ -22,7 +24,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
            <a class="navbar-brand d-none d-lg-block" href="/index.html">
-            <img src="images/logo.png" class="logo"/> Ewelina Serafin</a>
+            <img src="images/logo.png" class="logo"/> <span class="logo_text oleo-script-swash-caps-bold">Ewelina Serafin</span></a>
           <ul class="navbar-nav ml-auto">
             <li class="nav-item d-none d-lg-block active">
               <a class="button-navi" href="#">Home </a>
@@ -59,7 +61,7 @@
     
         </div>
       </nav>
-    <h1> Welcome on my website! </h1>
+    <h1 > Welcome on my website! </h1>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -67,9 +69,9 @@
             </div>
         
         <div class="col-md-6 justify-content-center align-self-center">
-            <h2>Hi! I'm Ewelina and this is my dog Marvel.
+            <h2 class="oleo-script-swash-caps-bold">Hi! I'm Ewelina and this is my dog Marvel.
            </h2>
-           <h3>
+           <h3 >
             This blog is where I’ll be sharing my travels, experiences, thoughts, and anything else that feels worth writing down.
             Thanks for being here — I hope you’ll stay a while.
            </h3>
@@ -109,6 +111,9 @@
               
         </div>
     </div>
+    <button class="scroll_to_top" id="scroll_to_top" aria-label="Scroll to top" title="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+</button>
     
 <footer class="footer container-fluid">
             <div class="social-icons mb-2">
@@ -121,4 +126,5 @@
 </footer>
     
 </body>
+<script src="java.js"></script>
 </html>
