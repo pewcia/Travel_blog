@@ -5,6 +5,19 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+a:hover {
+    text-decoration: none;
+    color: #5b427a;
+}
+a img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
 @media (min-width: 992px) {
   
     .button-navi {
@@ -35,8 +48,17 @@ body {
        h3 {
         font-size: 16px;
        }
+       a {
+        text-decoration: none;
+       }
+       
+    a img:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s ease;
+        margin-bottom: 20px;
+    
+    }
 }
-
 .active {
     font-weight: bold;
 }
@@ -94,3 +116,4 @@ p {
     font-size: 1.2em;
     padding-top: 5px;
 }
+
