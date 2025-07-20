@@ -20,9 +20,9 @@ body {
         margin-right: 15px;
    display: inline-block;
        }
-       .navbar-nav: hover {
+       .button-navi:hover {
         background-color: grey;
-        text-decoration:: none;
+        text-decoration: none;
         color: white;
         
        }
@@ -37,6 +37,9 @@ body {
        }
 }
 
+.active {
+    font-weight: bold;
+}
 .logo {
     width: 80px;
     height: auto;
@@ -47,7 +50,7 @@ body {
 h1 {
     text-align: center;
     color: #333;
-    font-size: 2.5em;
+    font-size: 2.8em;
     margin-top: 20px;
   
     padding-top: 20px;
@@ -69,7 +72,17 @@ h3 {
     margin-top: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+ h4 {
+   
+        text-align: center;
+        color: #333;
+        font-size: 2.5em;
+        margin-top: 20px;
+      
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+ }
 a {
     color:black;
       
