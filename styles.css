@@ -219,3 +219,10 @@ p {
 #mystory {
     font-size: 50px;
 }
+
+.home_page_link {
+    color: #e1c78f;
+    }
+.home_page_link:hover{
+    color:#f8f8f7;
+}
